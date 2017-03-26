@@ -8,5 +8,6 @@ document.getElementById("portsubmit").addEventListener("click", function() {
 		status.firstChild.nodeValue = "Error: Port is not a number.";
 	} else {
 		status.firstChild.nodeValue = "Opening port...";
+		chrome.runtime.sendMessage({name: "porttrigger", msg: parseInt(portin)});
 	}
 });

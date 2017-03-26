@@ -11,11 +11,19 @@
 	},
 
 	"background": {
-		"scripts": ["js/comm.js"]
+		"scripts": ["js/comm.js", "bower_components/osc.js/dist/osc-chromeapp.min.js"]
 	},
 
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": ["js/typedetect.js"],
+		"all_frames": true
+	}],
+
 	"permissions": [
-		"activeTab"
+		"activeTab",
+		"*://*/*",
+		"notifications"
 	]
 
 }
