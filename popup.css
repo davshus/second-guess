@@ -1,0 +1,17 @@
+* {
+	white-space: nowrap;
+}
+#portcontainer {
+	display: flex;
+	flex-flow: row;
+}
+#portinput {
+	float: left;
+	flex: 1;
+}
+#portsubmit {
+	width: auto;
+}
+#warning {
+	margin: 0;
+}

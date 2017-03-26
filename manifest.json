@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "Second Guess",
+	"description": "Anger clouds your vision.  Warn yourself if you are in danger of making a grave mistake.",
+	"version": "0.1",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	
+	"permissions": [
+		"activeTab"
+	]
+
+}
