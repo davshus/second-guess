@@ -1,0 +1,9 @@
+{
+	"name": "Second Guess",
+	"version": "0.1",
+	"main": "comm.js",
+	"ignore": [],
+	"dependencies": {
+		"osc.js": "2.2.0"
+	}
+}
